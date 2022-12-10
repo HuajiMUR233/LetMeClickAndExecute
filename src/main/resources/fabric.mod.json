@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "letmeclickandexecute",
+  "version": "${version}",
+
+  "name": "Let me click and execute!",
+  "description": "Execute client-side command with `run_command` click event in 1.19.x ",
+  "authors": [
+    "Huaji_MUR233"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/letmeclickandexecute",
+    "sources": "https://github.com/HuajiMUR233/LetMeClickAndExecute"
+  },
+
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/letmeclickandexecute/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "letmeclickandexecute.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}
